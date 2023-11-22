@@ -1,0 +1,65 @@
+html {
+    overflow: hidden;
+}
+
+#game {
+    width: 80vw;
+    height: 98vh;
+    background-image: url(../img/Haus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#game-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#strahlrohr {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+    background-image: url(../img/Strahlrohr.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 1/1;
+    width: 10%;
+}
+
+#wasser {
+    position: absolute;
+    width: 30vw;
+    aspect-ratio: 1/1;
+    background-image: url(../img/Wasser.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -115%;
+    bottom: 90%;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+    position: absolute;
+    width: 30vw;
+    aspect-ratio: 1/1;
+    background-image: url(../img/Wasser.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -115%;
+    bottom: 90%;
+}
+
+.fire {
+    position: absolute;
+    background-image: url(../img/Fire.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+}

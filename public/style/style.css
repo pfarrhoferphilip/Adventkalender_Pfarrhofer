@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Christmas;
+    src: url(../font/MerryChristmasFlake.ttf);
+}
+
+@keyframes popup_in {
+    0%{
+        transform: scale(0%);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 100;
+    }
+
+    100% {
+        transform: scale(100%);
+    }
+}
+
+body {
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.flex-center {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: Christmas;
+    font-size: 600%;
+    letter-spacing: 20px;
+    text-align: center;
+    color: red;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 5%;
+    padding: 10px;
+}
+
+#popup {
+    border: 0px solid black;
+    border-radius: 20px;
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    background-color: rgba(0, 0, 0, 0.9);
+    animation: popup_in 0.5s ease-in-out;
+}
+
+.back-button {
+    position: absolute;
+    width: 5%;
+    top: 1%;
+    right: 1%;
+    aspect-ratio: 1/1;
+    background-image: url(../img/BackButton.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(100%);
+    transition: all 0.3s ease-out;
+}
+
+.popup-button {
+    background-color: red;
+    margin-top: 5%;
+    padding: 1%;
+    font-size: 400%;
+    border: red solid 0px;
+    border-radius: 20px;
+    position: relative;
+    transform: scale(100%);
+    transition: all 0.3s ease-out;
+}
+
+.popup-button:hover {
+    cursor: pointer;
+    transform: scale(120%);
+}
+
+.opened-item {
+    background-color: rgba(255, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    aspect-ratio: 2/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: scale(100%);
+    transition: all 0.3s ease-out;
+    font-weight: bolder;
+}
+
+.opened-item:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.red-text {
+    color: red;
+}
+
+.back-button:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}
+
+.popup-title {
+    text-align: center;
+    font-size: 400%;
+}
+
+.item {
+    background-color: rgba(128, 128, 128, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    aspect-ratio: 2/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transform: scale(100%);
+    transition: all 0.3s ease-out;
+    font-weight: bolder;
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(110%);
+}

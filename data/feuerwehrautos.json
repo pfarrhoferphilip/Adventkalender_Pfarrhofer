@@ -1,0 +1,124 @@
+{
+    "autos": [
+        {
+            "name": "KDO",
+            "image": "KDO.jpg",
+            "description": "Kommandofahrzeug"
+        },
+        {
+            "name": "TLF-A2000",
+            "image": "TLF.jpg",
+            "description": "Tanklöschfahrzeug mit Allradantrieb und 2000 Liter Wassertank"
+        },
+        {
+            "name": "LFB-A1",
+            "image": "LFB-A1.jpg",
+            "description": "Löschfahrzeug mit Bergungsausrüstung und Allradantrieb (Version 1)"
+        },
+        {
+            "name": "LFB-A2",
+            "image": "LFB-A2.jpg",
+            "description": "Löschfahrzeug mit Bergungsausrüstung und Allradantrieb (Version 2)"
+        },
+        {
+            "name": "KLF-A",
+            "image": "KLF.jpg",
+            "description": "Kleinlöschfahrzeug mit Allradantrieb"
+        },
+        {
+            "name": "RLF-A",
+            "image": "RLF.jpg",
+            "description": "Rüstlöschfahrzeug mit Allradantrieb"
+        },
+        {
+            "name": "SLF-A",
+            "image": "SLF.jpg",
+            "description": "Schweres Löschfahrzeug mit Allradantrieb"
+        },
+        {
+            "name": "HLF",
+            "image": "HLF.jpeg",
+            "description": "Hilfeleistungsfahrzeug"
+        },
+        {
+            "name": "ULF",
+            "image": "ULF.jpg",
+            "description": "Universallöschfahrzeug"
+        },
+        {
+            "name": "MTF",
+            "image": "MTF.jpg",
+            "description": "Mannschaftstransportfahrzeug"
+        },
+        {
+            "name": "KRAD",
+            "image": "KRAD.jpg",
+            "description": "Kraftrad"
+        },
+        {
+            "name": "VF",
+            "image": "VF.jpg",
+            "description": "Versorgungsfahrzeug"
+        },
+        {
+            "name": "ASF",
+            "image": "ASF.jpg",
+            "description": "Atemschutzfahrzeug"
+        },
+        {
+            "name": "GSF",
+            "image": "GSF.jpg",
+            "description": "Gefährliche Stoffe Fahrzeug"
+        },
+        {
+            "name": "DLK",
+            "image": "DLK.jpg",
+            "description": "Drehleiter"
+        },
+        {
+            "name": "RLF-T",
+            "image": "RLF-T.jpg",
+            "description": "Tunnellöschfahrzeug"
+        },
+        {
+            "name": "TF",
+            "image": "TF.jpg",
+            "description": "Tauchfahrzeug"
+        },
+        {
+            "name": "IMF",
+            "image": "IMF.png",
+            "description": "Imkereifahrzeug"
+        },
+        {
+            "name": "ASL",
+            "image": "ASL.jpg",
+            "description": "Abschleppfahrzeug LKW"
+        },
+        {
+            "name": "ASP",
+            "image": "ASP.jpg",
+            "description": "Abschleppfahrzeug PKW"
+        },
+        {
+            "name": "SBF",
+            "image": "SBF.jpg",
+            "description": "Schlauchbootfahrzeug"
+        },
+        {
+            "name": "GTLF",
+            "image": "GTLF.jpg",
+            "description": "Groß-Tanklöschfahrzeug"
+        },
+        {
+            "name": "MZF",
+            "image": "MZF.jpg",
+            "description": "Mehrzweckfahrzeug"
+        },
+        {
+            "name": "Panther",
+            "image": "Panther.jpg",
+            "description": "High-Tech Flughafenfeuerwehr Löschfahrzeug"
+        }
+    ]
+}
