@@ -80,9 +80,13 @@ function canOpen(door_nr) {
 }
 
 function openPopUp(popup_id) {
-
+    
     martinshorn_audio.playbackRate = 0.8 + Math.random() * 0.4;
     martinshorn_audio.play();
+
+    if (popup_id == 24) {
+        background_audio.pause();
+    }
 
     document.getElementById(`item${popup_id}`).classList.remove("item");
     document.getElementById(`item${popup_id}`).classList.add("opened-item");
@@ -145,6 +149,11 @@ function openPopUp(popup_id) {
 }
 
 function closePopup() {
+
+    if (background_audio.paused) {
+        background_audio.play();
+    }
+
     if (document.getElementById("popup")) {
         console.log("Closing Popup")
         document.getElementById("popup").remove();
